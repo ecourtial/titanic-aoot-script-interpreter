@@ -27,3 +27,13 @@ if mission = 2 & currentset () = "recept1c"
 // For Zeitel
 if msg = "getlost" | zeitgossip = 1
 ```
+
+## How to use it
+
+* Compile the project.
+* Run it, giving the absolute path of the target script as the parameter:
+
+```java -jar titanic-script-interpreter-1.0-SNAPSHOT.jar /home/you/Desktop/scripts/before.txt```
+
+
+![Titanic Adventure Out Of Time Script Interpreter](titanic.png "Titanic Adventure Out Of Time Script Interpreter")

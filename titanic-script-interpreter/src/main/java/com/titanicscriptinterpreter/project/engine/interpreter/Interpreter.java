@@ -199,7 +199,7 @@ public class Interpreter {
                 Cli.outputMessage("Hide answers to the character you are talking to.");
                 break;
             case "puppetbevel":
-                Cli.outputMessage("Add answer option (id '" + argValues.get(1) + "): '" + argValues.get(0) + "'.");
+                Cli.outputMessage("Add answer option (id " + argValues.get(1) + "): " + argValues.get(0) + "'.");
                 break;
             case "puppetevent":
                 Cli.outputMessage("Enter the answer id: ");
